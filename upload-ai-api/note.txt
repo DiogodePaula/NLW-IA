@@ -1,0 +1,13 @@
+pnpm init
+pnpm i typescript @types/node tsx -D
+pnpm i fastify = rotas http
+pnpm i prisma -D = ORM
+pnpm prisma init --datasource-provider sqlite
+pnpm prisma migrate dev 
+pnpm i @fastify/multipart
+pnpm i zod
+pnpm i openai
+pnpm i dotenv -D
+pnpm i @fastify/cors
+pnpm i ai
+pnpm prisma db seed = gerar registros na tabela prompt

@@ -1,0 +1,14 @@
+RADIX - SHADCN/UI(instala radix e tailwind junto)
+
+npm install -g pnpm = gerenciador de pacotes, funcionalidade interessante de instalar uma dependência uma única vez e lincar ela com os outros projetos
+pnpm create vite = criar projeto com vite 
+pnpm add -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+pnpm i -D @types/node = permite importações internas do node, dentro do arquivo de configurações do vite
+pnpm dlx shadcn-ui@latest init
+pnpm dlx shadcn-ui@latest add button
+pnpm i lucide-react
+pnpm dlx shadcn-ui@latest add separator = instalando componentes 
+pnpm i @ffmpeg/ffmpeg @ffmpeg/util
+pnpm i axios 
+pnpm i ai
